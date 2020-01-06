@@ -2,3 +2,159 @@
     margin: 0;
     padding: 0;
 }
+
+.ngaythang {
+    font-size: 11px;
+    color: gray;
+}
+
+.aphai span {
+    color: gray;
+    font-size: 13px;
+}
+
+.atrai img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.aphai {
+    float: left;
+    width: 80%;
+}
+
+.aphai {
+    /* padding-top: 5px; */
+    padding: 5px 0px;
+}
+
+.aphai b {
+    color: #4267b2;
+}
+
+.atrai {
+    float: left;
+    width: 12%;
+    margin-left: 1%;
+}
+
+.trai img {
+    position: fixed;
+    /* width: 15%; */
+    left: 0;
+}
+
+.phai img {
+    width: 45%;
+    height: 100%;
+    position: fixed;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.motanhtren {
+    height: 50%;
+    height: 100px;
+}
+
+._3anhduoi img {
+    width: 32%;
+    height: 98%;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.motanhtren {
+
+/* height: 500px; */
+
+background-image: url("./image/chauvudong1.jpg");
+
+background-size: cover;
+
+background-repeat: no-repeat;
+
+background-position: 0 -50px;
+
+height: 58%;
+
+cursor: pointer;
+}
+.menutren
+{
+
+text-align: center;
+
+width: 100%;
+
+background: #4267b2;
+
+position: fixed;
+
+
+top: 0px;
+}
+.noidungchinh{
+    margin-top: 39px;
+    height: 100%;
+    width: 100%;
+}
+.noidungchinh .trai{
+    width: 15%;
+    float: left;
+    height: 100%;
+}
+.noidungchinh .phai{
+    float: l;
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.noidungchinh  .giua{
+    float: left;
+    width: 38%;
+    height: 100%;
+    margin-left: 32px;
+}
+.motkhoi{
+    width: 100%;
+    /* background: green; */
+    height: 100%;
+}
+.motkhoi .avatar{
+
+height: 10%;
+
+background-color: #ffffff;
+
+padding-top: 5px;
+
+padding-bottom: 8px;
+}
+.motkhoi .cacanh{
+    width: 100%;
+    height: 100%;
+}
+.cacanh ._3anhduoi{
+    height: 40%;
+    width: 40;
+}
+
+
+.popup{}
+.nenden{
+    transition: all 0.4s;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+}

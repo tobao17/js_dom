@@ -16,9 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         }
-
-
-
         if (i !== 2) {
             slide[i + 1].classList.add('active');
             console.log(i);
@@ -31,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         }
 
-    }, 1000);
+    }, 5000);
 
 
     for (let index = 0; index < nut.length; index++) {
